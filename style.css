@@ -1,32 +1,3 @@
-h1 {
-  font-family: "Arial";
-  font-size: 200px;
-  text-align: center;
-}
-
-h2 {
-  font-family: "Arial";
-  font-weight: "lighter";
-  font-size: 20px;
-  text-align: center;
-}
-
-p {
-  font-family: "Arial";
-  max-width: 750px;
-  text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 400px) {
-  h1 {
-    font-size: 50px
-  }
-  p {
-    font-size: 16px;
-    max-width: 250px
-  }
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
