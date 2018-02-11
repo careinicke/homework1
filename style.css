@@ -1,4 +1,4 @@
-<style>h1 {
+h1 {
   font-family: "Arial";
   font-size: 200px;
   text-align: center;
@@ -29,4 +29,12 @@ p {
   }
 }
 
-</style>
+@media (min-width: 401px) and (max-width: 768px) {
+  h1 {
+    font-size: 100px
+  }
+  p {
+    font-size: 24px;
+    max-width: 500px;
+  }
+}
